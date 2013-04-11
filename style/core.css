@@ -199,8 +199,15 @@ body.editing ul.section>li {border-bottom: 1px dashed #808080; position:relative
 .mform legend{border:1px solid #ddd;background:url([[pix:theme|gradient-sb]]) repeat-x 0 -25%;padding:2px 7px;}
 .mform .fitem .felement {  width: 100%;margin-left: 0px;margin-right: 0px;}
 .mform .fitem fieldset.felement{float:left;}
-.mform .fitem .fitemtitle{	float: left;
+.mform .fitem .fitemtitle{	width:100%;float: left;
 	text-align: left;
+}
+
+.mform .filemanager, #id_message_tbl, #id_subscribe {
+	width: 85% !important;
+	left: 0;
+	margin-left: 0;
+	padding-left: 0;
 }
 /* Footer
 -------------------------- */
